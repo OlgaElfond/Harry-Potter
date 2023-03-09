@@ -1,0 +1,7 @@
+body {
+  background-color: pink;
+}
+.house {
+  display: flex;
+  flex-direction: column;
+}
