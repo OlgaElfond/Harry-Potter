@@ -9,15 +9,28 @@
   </head>
   <body>
     <h1>Harry potter game!</h1>
-
-    <img class="character" src="" />
+    <div class="containerChar">
+      <img id="char" class="character" src="" />
+      <h2 id="charName"></h2>
+    </div>
 
     <div class="house">
-      <button class="Gryffindor">Gryffindor</button>
-      <button class="Ravenclaw">Ravenclaw</button>
-      <button class="Hufflepuff">Hufflepuff</button>
-      <button class="Slytherin">Slytherin</button>
+      <button class="house-button" data-house="Gryffindor">
+        Gryffindor <img src="../icons8-gryffindor-64.png" />
+      </button>
+      <button class="house-button" data-house="Ravenclaw">
+        Ravenclaw <img src="../icons8-gryffindor-64.png" />
+      </button>
+      <button class="house-button" data-house="Hufflepuff">
+        Hufflepuff <img src="../icons8-hufflepuff-64.png" />
+      </button>
+      <button class="house-button" data-house="Slytherin">
+        Slytherin <img src="../icons8-slytherin-64.png" />
+      </button>
     </div>
-    <script src="../indexHarry.js"></script>
+
+    <button class="start">start</button>
+
+    <script src="./mainClientHarry.js"></script>
   </body>
 </html>

@@ -1,7 +1,16 @@
 body {
-  background-color: pink;
+  background-color: rgb(243, 235, 236);
+  text-align: center;
 }
 .house {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  border-radius: 5%;
+  max-width: 250px;
+  margin: 2em;
 }
