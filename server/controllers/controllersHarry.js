@@ -6,11 +6,11 @@ async function characterInfo(req, res) {
 }
 
 async function checkTheHouse(req, res) {
+  console.log("check!!");
   const character = req.body;
+  console.log(character);
   res.json(await charactersService.checkTheHouse(character));
 }
-
-function checkTheHouse() {}
 module.exports = {
   characterInfo,
   checkTheHouse,

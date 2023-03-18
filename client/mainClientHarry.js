@@ -17,6 +17,7 @@ async function checkResult(event) {
   }
   console.log(house);
   character.house = house;
+  console.log(character);
   //console.log(character);
   const response = await fetch(
     "http://localhost:3030/api/character/checkresult",
